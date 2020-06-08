@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+int main()
+
+{
+	const int a = 10, b = 10;
+
+	int matr[a][b];
+
+	for (int i = 0; i < a; i++)
+		for (int j = 0; j < b; j++)
+		{
+			matr[i][j] = i * b + j;
+			cout << matr[i][j] << " ";
+		}
+	cout << endl;
+	
+}
